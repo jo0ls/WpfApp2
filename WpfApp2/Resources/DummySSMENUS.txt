@@ -1,0 +1,336 @@
+142399,SSMENUX,,Sales Ledger,M,MSLMENU,,
+142400,SSMENUX,MSLMENU,Account Details and Enquiry,P,PSLPENQ,,
+142401,SSMENUX,MSLMENU,Journal Postings,P,PSLPJNL,,
+142402,SSMENUX,MSLMENU,Cash Postings,P,PSLPCSH  E,,
+142403,SSMENUX,MSLMENU,Client Terms,P,PSLTERMS.exe,ENV=<ENV> CONO=<CO>,^
+142404,SSMENUX,MSLMENU,Reports,M,MSLMENUR,,
+142405,SSMENUX,MSLMENUR,Aged Debt Analysis,P,PSLPADA,,
+142406,SSMENUX,MSLMENUR,Statement Print,P,PSLPSTM,,
+142407,SSMENUX,MSLMENUR,Credit Exposure,P,PSLPCER,,
+142408,SSMENUX,,Purchase Ledger,M,MPLMENU,,
+142409,SSMENUX,MPLMENU,Account Details and Enquiry,P,PPLPENQ,,
+142410,SSMENUX,MPLMENU,Journal Postings,P,PPLPJNL,,
+142411,SSMENUX,MPLMENU,Payments,P,PPLPPYT,,
+142412,SSMENUX,MPLMENU,Reports,M,MPLMENUR,,
+142413,SSMENUX,MPLMENUR,Aged Creditors Analysis,P,PPLPACA,,
+142414,SSMENUX,MPLMENUR,Remittance Print,P,PPLPRAP,,
+142415,SSMENUX,MPLMENUR,Invoice Register,P,PPOPIVR,,
+142416,SSMENUX,MPLMENUR,Transaction List,P,PPLPTRN,,
+142417,SSMENUX,MPLMENUR,Payment Forecast,P,PPLPPFR0,,
+142418,SSMENUX,MPLMENUR,Supplier List,P,PPLPLIS,,
+142419,SSMENUX,,Nominal Ledger,M,MNLMENU,,
+142420,SSMENUX,MNLMENU,Account Enquiry,P,PNLPENQ,,
+142421,SSMENUX,MNLMENU,Journal Posting,P,PNLPJNL,,
+142422,SSMENUX,MNLMENU,Bank Reconciliation,P,PBankReconciliation.exe,ENV=<ENV> CONO=<CO>,^
+142423,SSMENUX,MNLMENU,Reports,M,MNLMENUR,,
+142424,SSMENUX,MNLMENUR,Trial Balance,P,PNLPTB,,
+142425,SSMENUX,MNLMENUR,Group Report,P,PNLPBGR,,
+142426,SSMENUX,MNLMENUR,Transaction List,P,PNLPTL   1,,
+142427,SSMENUX,MNLMENUR,Journal Audit Report,P,PNLPJNR,,
+142428,SSMENUX,MNLMENUR,VAT Reporting,P,PMonthend.exe,ENV=<ENV> CONO=<CO> REPORT=<VATREPORT>,^
+142429,SSMENUX,MNLMENU,Maintenance,M,MNLMENUM,,
+142430,SSMENUX,MNLMENUM,Nominal Group Maintenance,P,PNLGroupMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142431,SSMENUX,MNLMENUM,Nominal Account Maintenance,P,PNLPMST0,,
+142432,SSMENUX,MNLMENUM,Chart of Accounts,P,PNLPCOA,,
+142433,SSMENUX,MNLMENUM,Exchange Rate Input,P,PCOPCUR0,,
+142434,SSMENUX,MNLMENUM,Budget Spreadsheet Import,P,PNLPIBUD,,
+142435,SSMENUX,MNLMENUM,Budget Entry,P,PNLPBUD,,
+142436,SSMENUX,MNLMENU,Nominal Consolidation,P,PNLPMERGE,,
+142437,SSMENUX,,Job Costing,M,MJCMENU,,
+142438,SSMENUX,MJCMENU,Job Costing,P,PJCPMSTM,,
+142439,SSMENUX,MJCMENU,Job Schedule,P,PJobScheduleWorkflowApp.exe,ENV=<ENV_> CONO=<CO>,^
+142440,SSMENUX,MJCMENU,Database & Document Management,P,PDOCMG,,^
+142441,SSMENUX,MJCMENU,Task Allocation,P,PTask Allocation.exe,ENV=<ENV> CONO=<CO>,^
+142442,SSMENUX,MJCMENU,Reports,M,MJCMENUR,,
+142443,SSMENUX,MJCMENUR,Order Book,P,POrderBook.exe,ENV=<ENV> CONO=<CO>,^
+142444,SSMENUX,MJCMENUR,Aged WIP Report,P,PAgedWIP.exe,ENV=<ENV> CONO=<CO>,^
+142445,SSMENUX,MJCMENUR,Job Bag Print,P,PJCPBAG,,
+142446,SSMENUX,MJCMENUR,Detail Job Report,P,PDetailJob.exe,ENV=<ENV> CONO=<CO>,^
+142447,SSMENUX,MJCMENUR,Time Billed Analysis,P,PJCPTBA,,
+142448,SSMENUX,MJCMENUR,Job Summary Report,P,PJCPSUM,,
+142449,SSMENUX,MJCMENUR,Job Budgets to Excel,P,PJCPJBE,,
+142450,SSMENUX,MJCMENUR,Job Budget Billing Totals to Excel,P,PJCPJBT,,
+142451,SSMENUX,MJCMENUR,Budget Job Review Report,P,PJCPBJR,,
+142452,SSMENUX,MJCMENUR,Write Off Analysis,P,PSIPWOA,,
+142453,SSMENUX,MJCMENUR,Sales Forecast Report,P,PJCPSFC,,
+142454,SSMENUX,MJCMENU,Maintenance,M,JCMENUM,,
+142455,SSMENUX,JCMENUM,Analysis Codes,P,PJCPANALM,,
+142456,SSMENUX,JCMENUM,Client Rate Card - Job Costing Details,P,PJCPCDT,,
+142457,SSMENUX,JCMENUM,Cost Centre Maintenance,P,PCLPMST0,,
+142458,SSMENUX,JCMENUM,Cost Centre Chart of Accounts,P,PCLChartOfAccounts.exe,ENV=<ENV> CONO=<CO>,^
+142459,SSMENUX,JCMENUM,Resource Membership Maintenance,P,PJob Schedule Resource Maint App.exe,ENV=<ENV> CONO=<CO> Mode=RESOURCE,^
+142460,SSMENUX,JCMENUM,Status Code Maintenance,P,PJCPSTA,,
+142461,SSMENUX,JCMENUM,Status Colour Maintenance,P,PJobStatusColourMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142462,SSMENUX,JCMENUM,Task Colour Maintenance,P,PJobScheduleColourMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142463,SSMENUX,JCMENUM,Task Status Maintenance,P,PJCPSTS,,
+142464,SSMENUX,JCMENUM,Job Estimate Templates,P,PJob Estimate Templates.exe,ENV=<ENV> CONO=<CO>,^
+142465,SSMENUX,MJCMENU,Draft Invoicing,M,MJCMENUDI,,
+142466,SSMENUX,MJCMENUDI,Draft Income,P,PDraftIncome.exe,ENV=<ENV> CONO=<CO>,^
+142467,SSMENUX,MJCMENUDI,Draft Invoice Print,P,PJCPDIP,,
+142468,SSMENUX,MJCMENUDI,Draft Invoice List,P,PJCPDIL,,
+142469,SSMENUX,MJCMENUDI,Draft Invoice Authorisation,P,PDraftInvoiceView.exe,ENV=<ENV_> CONO=<CO>,^
+142470,SSMENUX,MJCMENUDI,Draft Invoice Release,P,PJCPDIR,,
+142471,SSMENUX,MJCMENUDI,Invoice Print,P,PSIPINVP,,
+142472,SSMENUX,MJCMENUDI,Maintenance,M,MJCMENUDM,,
+142473,SSMENUX,MJCMENUDM,Draft Invoice Deletion,P,PJCPDIR  D,,
+142474,SSMENUX,MJCMENU,Timesheets,M,CLMENUT,,
+142475,SSMENUX,CLMENUT,Timesheet Update,P,PTimeUpdate.exe,ENV=<ENV> CONO=<CO>,^
+142476,SSMENUX,CLMENUT,Job Transfer Time,P,PJobTransferTime.exe,ENV=<ENV> CONO=<CO>,^
+142477,SSMENUX,CLMENUT,Reports,M,CLMENUTR,,
+142478,SSMENUX,CLMENUTR,Time Pre-Update report,P,PCLPTPU,,
+142479,SSMENUX,CLMENUTR,Missing Timesheet Report,P,PMissingTimeSheetReport.exe,ENV=<ENV> CONO=<CO>,^
+142480,SSMENUX,CLMENUTR,Time Utilisation,P,PCLPTUR,,
+142481,SSMENUX,CLMENUTR,Productivity Analysis,P,PCLPCTU,,
+142482,SSMENUX,CLMENUTR,Booked Courier Report,P,PCLPCBR,,
+142483,SSMENUX,CLMENUT,Maintenance,M,CLMENUTM,,
+142484,SSMENUX,CLMENUTM,Accounting Periods,P,PMaintainAccountingPeriods.exe,ENV=<ENV> CONO=<CO>,^
+142485,SSMENUX,CLMENUTM,Accounting Periods Print,P,RCORAPE,,
+142486,SSMENUX,CLMENUT,SQL Reports,M,MXLVIEWS,concept_time,^
+142487,SSMENUX,MJCMENU,Job Closing and Archiving,M,MJCMENUC,,
+142488,SSMENUX,MJCMENUC,Income Accrual Adjustment,P,PJCPCLS  AI,,
+142489,SSMENUX,MJCMENUC,Manual Job Closing,P,PJCPCLS,,
+142490,SSMENUX,MJCMENUC,Set Media Jobs Ready for Closing,P,PJCPSJRC,,
+142491,SSMENUX,MJCMENUC,Job Stats to Excel (for Job Closing),P,PJCPJSE,,
+142492,SSMENUX,MJCMENUC,Set Job Status from Spreadsheet,P,PJobStatusSetting.exe,ENV=<ENV> CONO=<CO>,^
+142493,SSMENUX,MJCMENUC,Jobs Ready for Closing,P,PJCPJRC,,
+142494,SSMENUX,MJCMENUC,Automatic Job Closing,P,PJCPACLS,,
+142495,SSMENUX,MJCMENUC,Job Archiving,P,PJobArchiving.exe,ENV=<ENV_> CONO=<CO>,^
+142496,SSMENUX,,Media,M,MMBMENUG,,
+142497,SSMENUX,MMBMENUG,Media Booking,P,PMediaCentralBuyersBookingView.exe,ENV=<ENV_> CONO=<CO>,^
+142498,SSMENUX,MMBMENUG,Book Bookings,P,PMediaCentralBuyersBookingView.exe,ENV=<ENV> CONO=<CO> MODE=BOOK,^
+142499,SSMENUX,MMBMENUG,Reports,M,MMBMENUG1,,
+142500,SSMENUX,MMBMENUG1,Schedule Print,P,PMediaSchedulePrint.exe,ENV=<ENV> CONO=<CO>,^
+142501,SSMENUX,MMBMENUG1,Client Spend Report,P,PClientSpendReport.exe,ENV=<ENV> CONO=<CO>,^
+142502,SSMENUX,MMBMENUG1,Media Order Print,P,PPOPORDP M,,
+142503,SSMENUX,MMBMENUG1,Media Analysis,P,PMBPMAN,,
+142504,SSMENUX,MMBMENUG1,Campaign Analysis,P,PMediaCampaignAnalysis.exe,ENV=<ENV> CONO=<CO>,^
+142505,SSMENUX,MMBMENUG1,Account Manager Summary,P,PMBPAMS,,
+142506,SSMENUX,MMBMENUG1,Unmatched Media Orders,P,PMBPUMO,,
+142507,SSMENUX,MMBMENUG1,Buying Analysis,P,PMediaBuyAnalysis.exe,ENV=<ENV> CONO=<CO>,^
+142508,SSMENUX,MMBMENUG1,Media Booking List,P,PMBPBKL,,
+142509,SSMENUX,MMBMENUG1,Reason for Credit Report,P,PMBPCRC,,
+142510,SSMENUX,MMBMENUG1,Media Booking and Activity Report,P,PMediaBookingRpt.exe,ENV=<ENV> CONO=<CO>,^
+142511,SSMENUX,MMBMENUG,Billing,M,MMBMENUG2,,
+142512,SSMENUX,MMBMENUG2,Potential Billing List,P,PMBPPBL0,,
+142513,SSMENUX,MMBMENUG2,Automatic Billing,P,PMBPREL0,,
+142514,SSMENUX,MMBMENUG2,Third Party Billing,P,PMBPREL0 3R,,
+142515,SSMENUX,MMBMENUG2,Draft Invoice Print,P,PJCPDIP,,
+142516,SSMENUX,MMBMENUG2,Draft Invoice Authorisation,P,PDraftInvoiceView.exe,ENV=<ENV_> CONO=<CO>,^
+142517,SSMENUX,MMBMENUG2,Draft Invoice Release,P,PJCPDIR,,
+142518,SSMENUX,MMBMENUG2,Invoice Print,P,PSIPINVP,,
+142519,SSMENUX,MMBMENUG2,Accrue Potential Billings,P,PMBPAPB,,
+142520,SSMENUX,MMBMENUG2,Revalue Bookings,P,PMBPBKV,,
+142521,SSMENUX,MMBMENUG2,Maintenance,M,MMBMENUBM,,
+142522,SSMENUX,MMBMENUBM,Draft Invoice Deletion,P,PJCPDIR  D,,
+142523,SSMENUX,MMBMENUG,Vouchers,M,MMBMENUG3,,
+142524,SSMENUX,MMBMENUG3,Voucher List / Print,P,PMBPVCA,,
+142525,SSMENUX,MMBMENUG3,Voucher Checking,P,PMBPVCL,,
+142526,SSMENUX,MMBMENUG3,Import Vouched Items,P,PMBPVCE,,
+142527,SSMENUX,MMBMENUG3,Export Voucher Check List,P,PVoucher Check Export.exe,ENV=<ENV> CONO=<CO>,^
+142528,SSMENUX,MMBMENUG3,Automatic Voucher Setting,P,PMBPVAS,,
+142529,SSMENUX,MMBMENUG,Maintenance,M,MMBMENUG4,,
+142530,SSMENUX,MMBMENUG4,Media Maintenance,P,PMBPMED0,,
+142531,SSMENUX,MMBMENUG4,Media Print,P,PMBPMEDR,,
+142532,SSMENUX,MMBMENUG4,Media Publisher Maintenance,P,PMBPCOM0,,
+142533,SSMENUX,MMBMENUG4,Media Publisher Print,P,PMBPCOMR,,
+142534,SSMENUX,MMBMENUG4,Campaign Print,P,PMBPCAMR,,
+142535,SSMENUX,MMBMENUG4,Media Workflow Status Colouring,P,PDeadlineColourMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142536,SSMENUX,MMBMENUG,Reconciliation and Closing,M,MMBMENUR,,
+142537,SSMENUX,MMBMENUR,Media Accruals Report,P,PMBPACCR,,
+142538,SSMENUX,MMBMENUR,Campaign Complete Report,P,PMBPCCI,,
+142539,SSMENUX,MMBMENUR,Campaign Close,P,PMBPCLS,,
+142540,SSMENUX,MMBMENUR,Flag Third Party Bookings,P,PMBPTPB,,
+142541,SSMENUX,,Purchase Order Processing,M,MPOMENU,,
+142542,SSMENUX,MPOMENU,Order Entry - Job Costing,P,PPOPMNT0 J,,
+142543,SSMENUX,MPOMENU,Order Entry - Media,P,PPOPMNT0 M,,
+142544,SSMENUX,MPOMENU,Order Print,P,PPOPORDP,,
+142545,SSMENUX,MPOMENU,Invoice Matching - Job Costing,P,PPOPMCHJ,,
+142546,SSMENUX,MPOMENU,Invoice Matching - Media,P,PPOPMCHM,,
+142547,SSMENUX,MPOMENU,Automatic Matching and Write Offs,P,PPOPMCH1,,
+142548,SSMENUX,MPOMENU,Purchase Order Archive,P,PPOArchiving.exe,ENV=<ENV> CONO=<CO>,^
+142549,SSMENUX,MPOMENU,Purchase Order Archive Delete,P,PPOArchiving.exe,ENV=<ENV> CONO=<CO> ArchiveDelete=Y,^
+142550,SSMENUX,MPOMENU,Reports,M,MPOMENUR,,
+142551,SSMENUX,MPOMENUR,Unmatched Invoice Report,P,PPOPUIV,,
+142552,SSMENUX,MPOMENUR,Purchasing Analysis Report,P,PPOAnalysis.exe,ENV=<ENV> CONO=<CO>,^
+142553,SSMENUX,MPOMENUR,PO Exception Report,P,PPOPEXP,,
+142554,SSMENUX,,Sales Invoicing,M,MSIMENUJC,,
+142555,SSMENUX,MSIMENUJC,Direct Draft Invoice Entry,P,PJobDraft.exe,ENV=<ENV> CONO=<CO>,^
+142556,SSMENUX,MSIMENUJC,Repeat Invoicing,P,PJCPRIN,,
+142557,SSMENUX,MSIMENUJC,Draft Income,P,PDraftIncome.exe,ENV=<ENV> CONO=<CO>,^
+142558,SSMENUX,MSIMENUJC,Draft Invoice Print,P,PJCPDIP,,
+142559,SSMENUX,MSIMENUJC,Draft Invoice List,P,PJCPDIL,,
+142560,SSMENUX,MSIMENUJC,Draft Invoice Authorisation,P,PDraftInvoiceView.exe,ENV=<ENV_> CONO=<CO>,^
+142561,SSMENUX,MSIMENUJC,Draft Invoice Release,P,PJCPDIR,,
+142562,SSMENUX,MSIMENUJC,Invoice Print,P,PSIPINVP,,
+142563,SSMENUX,MSIMENUJC,Invoice Print - Selected Invoices.,P,PSIPINVP I,,
+142564,SSMENUX,MSIMENUJC,Pre Invoice Update BACKUP,P,PBackupSQL.exe,ENV=<ENV> CONO=<CO> Filename=InvoiceUpdate TRAN=Y,^
+142565,SSMENUX,MSIMENUJC,Invoice Update,P,PSIPEOD,,
+142566,SSMENUX,MSIMENUJC,Reports,M,MSI Reports,,
+142567,SSMENUX,MSI Reports,Invoice Register,P,PSIPLST,,
+142568,SSMENUX,MSI Reports,Invoice Register Analysis,P,PSIPLST  JC,,
+142569,SSMENUX,MSI Reports,Management Reports,P,PSIPMIS,,
+142570,SSMENUX,MSI Reports,Detailed Management Information,P,PSIPDMI,,
+142571,SSMENUX,MSI Reports,Electronic Invoice Output,P,PSIPEINV,,
+142572,SSMENUX,MSIMENUJC,Maintenance,M,MSIMENUM,,
+142573,SSMENUX,MSIMENUM,Draft Invoice Deletion,P,PJCPDIR  D,,
+142574,SSMENUX,MSIMENUM,Invoice Deletion,P,PSIPMNT,,
+142575,SSMENUX,,Contact Management Database,M,MNBMENU,,
+142576,SSMENUX,MNBMENU,Database & Document Management,P,PDOCMG,,^
+142577,SSMENUX,MNBMENU,Database,P,PNBPDBM,,
+142578,SSMENUX,,Month End,M,MSSMENU2,,
+142579,SSMENUX,MSSMENU2,System Reconciliation,P,PbinSSREC\SSRECLauncher.exe,ENV=<ENV> CONO=<CO>,^
+142580,SSMENUX,MSSMENU2,VAT Reporting,P,PMonthEnd.exe,ENV=<ENV> CONO=<CO> REPORT=<VATREPORT> ENV_=<ENV_>,^
+142581,SSMENUX,MSSMENU2,Month End SQL backup,P,PbackupSQL.exe,ENV=<ENV> CONO=<CO> filename=MONTHEND,^
+142582,SSMENUX,MSSMENU2,Month End Routine,P,PMonthEnd.exe,ENV=<ENV> CONO=<CO> ENV_=<ENV_>,^
+142583,SSMENUX,MSSMENU2,Exchange Rate Input,P,PCOPCUR0,,
+142584,SSMENUX,MSSMENU2,Currency Revaluation,P,PCOPREV,,
+142585,SSMENUX,MSSMENU2,Close Period for Postings,P,PNLPEND,,
+142586,SSMENUX,MSSMENU2,Year Open,P,PNLPOPEN0,,
+142587,SSMENUX,MSSMENU2,Year Close,P,PNLPYRE,,
+142588,SSMENUX,MSSMENU2,Accounting Periods,P,PMaintainAccountingPeriods.exe,ENV=<ENV> CONO=<CO>,^
+142589,SSMENUX,MSSMENU2,Accounting Periods Print,P,RCORAPE,,
+142590,SSMENUX,MSSMENU2,Intercompany Draft Invoices,P,PJCPDIC,,
+142591,SSMENUX,MSSMENU2,Intercompany PL Invoices,P,PPLPPIC,,
+142592,SSMENUX,,Utilities,M,MSSMENU1,,
+142593,SSMENUX,MSSMENU1,User/Employee Maintenance,M,Employee Maintenance,,
+142594,SSMENUX,Employee Maintenance,Employee Extranet Access,P,PExtranetEmployeeMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142595,SSMENUX,Employee Maintenance,Employee File Print,P,PSSPOSR0,,
+142596,SSMENUX,Employee Maintenance,Employee Maintenance,P,PSSPOPR0,,
+142597,SSMENUX,Employee Maintenance,Timesheet Cost Centre Restriction,P,PEmpTimeSheetCCRestriction.exe,ENV=<ENV> CONO=<CO>,^
+142598,SSMENUX,Employee Maintenance,Web Timesheet-Cost Center Restriction,P,PEmpTimeSheetCCRestriction.exe,ENV=<ENV> CONO=<CO>,^
+142599,SSMENUX,Employee Maintenance,Standard Working Hours,P,PEmployeeApp.exe,ENV=<ENV> CONO=<CO> APP=WorkingHours OPR_CODE=*default,^
+142600,SSMENUX,Employee Maintenance,Employee Resource Membership,P,PJob Schedule Resource Maint App.exe,ENV=<ENV> CONO=<CO> Mode=EMPLOYEE,^
+142601,SSMENUX,Employee Maintenance,Employee PO Activity Restriction,P,PEmpPoActivityRestrictionApp.exe,ENV=<ENV> CONO=<CO>,^
+142602,SSMENUX,Employee Maintenance,My Calendar,P,PConceptCalendar.exe,ENV=<ENV> CONO=<CO> Mode=EMPLOYEE,^
+142603,SSMENUX,Employee Maintenance,Resource Calendar,P,PConceptCalendar.exe,ENV=<ENV> CONO=<CO> Mode=RESOURCE,^
+142604,SSMENUX,Employee Maintenance,Company Calendar,P,PConceptCalendar.exe,ENV=<ENV> CONO=<CO> Mode=COMPANY,^
+142605,SSMENUX,Employee Maintenance,Special Events Calendar,P,PConceptCalendar.exe,ENV=<ENV> CONO=<CO> Mode=SPECIAL,^
+142606,SSMENUX,MSSMENU1,System Utilities,M,MSystem Utilities,,
+142607,SSMENUX,MSystem Utilities,Activity Maintenance,P,PSSPACT0,,
+142608,SSMENUX,MSystem Utilities,Client Activity Rates,P,PClientActivityRates.exe,ENV=<ENV> CONO=<CO>,^
+142609,SSMENUX,MSystem Utilities,Client Cost Centre Rates,P,PClientCostCentreRates.exe,ENV=<ENV> CONO=<CO>,^
+142610,SSMENUX,MSystem Utilities,Client Employee Rates,P,PClientEmployeeRates.exe,ENV=<ENV> CONO=<CO>,^
+142611,SSMENUX,MSystem Utilities,Cognos Output,P,PCognosOutput.exe,ENV=<ENV> CONO=<CO> OutputFolder=\\Esg-as1\concept$\usr\2010,^
+142612,SSMENUX,MSystem Utilities,Company Banner Editor,P,PCompanyBannerEditor.exe,ENV=<ENV> CONO=<CO>,^
+142613,SSMENUX,MSystem Utilities,Crystal Reports Setup,P,PCrystalReportsEditor.exe,ENV=<ENV> CONO=<CO>,^
+142614,SSMENUX,MSystem Utilities,Current Sessions,P,PCSTAT,,^
+142615,SSMENUX,MSystem Utilities,Session Management,P,PConceptTSAdmin.exe,ENV=<ENV> CONO=<CO>,^
+142616,SSMENUX,MSystem Utilities,Custom Fields Maintenance,P,PCustomFieldsMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142617,SSMENUX,MSystem Utilities,Document Linking Maintenance,P,PDocument Linking Maintenance.exe,ENV=<ENV> CONO=<CO>,^
+142618,SSMENUX,MSystem Utilities,Email Exception Maintenance,P,PEER Rules Maint.exe,ENV=<ENV> CONO=<CO>,^
+142619,SSMENUX,MSystem Utilities,Company Email Footer Maintenance,P,PCompanyEmailFooterMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142620,SSMENUX,MSystem Utilities,Export Jobs/Employees etc to Timesheets,P,PExport Jobs Etc for Timesheets.exe,ENV=<ENV> SHOW,^
+142621,SSMENUX,MSystem Utilities,License Manager,P,PCLMGR,,^
+142622,SSMENUX,MSystem Utilities,Manual Import of Time,P,PCLPTREI,,
+142623,SSMENUX,MSystem Utilities,Menu Designer,P,PMNUDES,,^
+142624,SSMENUX,MSSMENU1,System Parameters,M,MSSMENU4,,
+142625,SSMENUX,MSSMENU4,Company Parameters Maintenance,P,PCompanyParamsMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142626,SSMENUX,MSSMENU4,Database Parameters,P,CCOWPRM32,,
+142627,SSMENUX,MSSMENU4,Invoicing Parameters,M,MSIMENUP,,
+142628,SSMENUX,MSIMENUP,Invoice Parameters,P,CCOWP03,,
+142629,SSMENUX,MSIMENUP,Invoice Type/Department Maintenance,P,PSIPTYPM,,
+142630,SSMENUX,MSSMENU4,Job Costing Parameters,M,Job Costing Parameters,,
+142631,SSMENUX,Job Costing Parameters,Maintenance-Enquiry Parameters,P,CCOSPRM31,,
+142632,SSMENUX,Job Costing Parameters,Estimate and Quote Parameters,P,CCOSPRM3E,,
+142633,SSMENUX,Job Costing Parameters,Budgeting Parameters,P,CCOSPRM3U,,
+142634,SSMENUX,Job Costing Parameters,Invoicing Parameters,P,CCOSPRM3I,,
+142635,SSMENUX,Job Costing Parameters,Insurance and Repeat Invoicing Parameters,P,CCOWPRM3M,,
+142636,SSMENUX,Job Costing Parameters,Job Status Parameters,P,CCOSPRM3S,,
+142637,SSMENUX,Job Costing Parameters,Timesheet Parameters,P,PTimeSheetParameterMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142638,SSMENUX,Job Costing Parameters,Management Report Group Headings,P,CCOSPRM3C,,
+142639,SSMENUX,Job Costing Parameters,Excel Timesheet Start Date Parameters,P,CCOWPRM3T,,
+142640,SSMENUX,Job Costing Parameters,Document Linking Parameters,P,CCOSPRM3D,,
+142641,SSMENUX,Job Costing Parameters,Other Reports Parameters,P,CCOWPRM3S,,
+142642,SSMENUX,Job Costing Parameters,Milestone Date Descriptions,P,CCOWPRM3D,,
+142643,SSMENUX,Job Costing Parameters,Cost Ledger Parameters,P,PCLPARM,,
+142644,SSMENUX,Job Costing Parameters,Cost Group Maintenance,P,PCLGroupMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142645,SSMENUX,Job Costing Parameters,Cost Ledger Chart of Accounts,P,PCLChartOfAccounts.exe,ENV=<ENV> CONO=<CO>,^
+142646,SSMENUX,Job Costing Parameters,Estimate Template,P,PJCPCCTM,,
+142647,SSMENUX,Job Costing Parameters,Job Schedule Resource Maintenance,P,PJCPSAG0,,
+142648,SSMENUX,Job Costing Parameters,Job Schedule Template,P,PJCPSTM0,,
+142649,SSMENUX,Job Costing Parameters,Schedule and Capacity Planning Parameters,P,CCOWPRM3C,,
+142650,SSMENUX,Job Costing Parameters,Time Utilisation Report Columns,P,VCLVTUR1,,#
+142651,SSMENUX,Job Costing Parameters,Account Team Budgets,P,PSIPATB,,
+142652,SSMENUX,Job Costing Parameters,Job Analysis Setting,P,PJobAnalysisSetting.exe,ENV=<ENV> CONO=<CO>,^
+142653,SSMENUX,MSSMENU4,Journal Spreadsheet Import Parameters,P,PNLPPRMJ,,
+142654,SSMENUX,MSSMENU4,Media Parameters,P,PMBPPRM,,
+142655,SSMENUX,MSSMENU4,Nominal Ledger Parameters,P,PNLPARM,,
+142656,SSMENUX,MSSMENU4,Purchase Department Parameters,P,PPOPTYPM,,
+142657,SSMENUX,MSSMENU4,Purchase Ledger Parameters,P,PPLPARM,,
+142658,SSMENUX,MSSMENU4,Purchase Order Parameters,P,PPOPARM,,
+142659,SSMENUX,MSSMENU4,Sales Ledger Parameters,P,PSLPARM,,
+142660,SSMENUX,MSSMENU4,Web Timesheet Parameters,P,PTimeSheetParameterMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142661,SSMENUX,MSSMENU4,Purchase Scanned Invoices Setup,P,PPurchaseDocumentImportParamMaint.exe,ENV=<ENV> CONO=<CO>,^
+142662,SSMENUX,MSSMENU4,Late Payment Types,P,PVBWrap.exe,ENV=<ENV> CONO=<CO> APPLICATION=LATEPAYMENTTYPE,^
+142663,SSMENUX,MSSMENU1,Audit Reports,M,MAudit Reports,,
+142664,SSMENUX,MAudit Reports,Audit File Print,P,PSSPAFR,,
+142665,SSMENUX,MAudit Reports,Menu Log,P,PSSPMLR,,
+142666,SSMENUX,MAudit Reports,Nominal Journal Report,P,PNLPJNR,,
+142667,SSMENUX,MAudit Reports,Operator File Print,P,PSSPOSR0,,
+142668,SSMENUX,MAudit Reports,Purchase Order Audit,P,PPOPAUP,,
+142669,SSMENUX,,Office Procedures,M,MCPMENU,,
+142670,SSMENUX,MCPMENU,How to do Accruals,H,HOPHTDA,,
+142671,SSMENUX,MCPMENU,Purchase Invoice Authorization,H,HOPPIA,,
+142672,SSMENUX,MCPMENU,Job Closing,H,HMOPJC,,
+142673,SSMENUX,MCPMENU,Payments,H,HPayments,,
+142674,SSMENUX,MCPMENU,Media Billing,H,HMedia Billing,,
+142675,SSMENUX,,Management Information SQL Views,M,MXLVIEWS,concept_mgmt,^
+142676,SSMENUX,,Account Information SQL Views,M,MXLVIEWS,concept_accounts,^
+142677,SSMENUX,,Database Information SQL Views,M,MXLVIEWS,concept_database,^
+142678,SSMENUX,,Audit Information SQL View,M,MXLVIEWS,concept_audit,^
+142679,SSMENUX,,CIS DEVELOPMENT Internal Use Only,M,MACTIVRP,,
+142680,SSMENUX,MACTIVRP,NEW Purchase Order Workflow powflv2,P,PPurchaseOrderWorkflowViewV2.exe,ENV=<ENV> CONO=<CO> ENV_=<ENV_>,^
+142681,SSMENUX,MACTIVRP,NEW Purchase Order Matching,P,PPurchase Order Matching.exe,ENV=<ENV_> CONO=<CO>,^
+142682,SSMENUX,MACTIVRP,XXP TEST,P,PXXP,,
+142683,SSMENUX,MACTIVRP,MPG Test,P,PXXG1,,
+142684,SSMENUX,MACTIVRP,Task Allocation Test,P,PTask Allocation2.exe,ENV=<ENV> CONO=<CO>,^
+142685,SSMENUX,MACTIVRP,Job Schedule Test,P,PJobScheduleWorkflowApp2.exe,ENV=<ENV> CONO=<CO>,^
+142686,SSMENUX,MACTIVRP,Invoice Update .Net,P,PInvoiceUpdate.exe,ENV=<ENV> CONO=<CO>,^
+142687,SSMENUX,MACTIVRP,BESPOKE,M,MDEVbespoke,,
+142688,SSMENUX,MDEVbespoke,Ariba Spend Visibility,M,MXLVIEWS,ariba,^
+142689,SSMENUX,MDEVbespoke,BK FORCE write off media orders to Bal Sheet 926250,P,PPOPMCH1 FB,,
+142690,SSMENUX,MDEVbespoke,BK FORCE write off media orders to P&L 7070xx,P,PPOPMCH1 FP,,
+142691,SSMENUX,MDEVbespoke,Hydra Jobs Export,P,PConceptExportOfJobNumbers.exe,ENV=<ENV> CONO=<CO>,^
+142692,SSMENUX,MDEVbespoke,Import Invoices from Traffic,P,PJCPDII,,
+142693,SSMENUX,MDEVbespoke,Time Import (Traffic/Hydra),P,PCLPTREE,,
+142694,SSMENUX,MDEVbespoke,Media Billing Report (TDG),P,PMediaBillingReport.exe,ENV=<ENV> CONO=<CO>,^
+142695,SSMENUX,MDEVbespoke,Order Book Activity Report (made),P,POrderBookMade.exe,ENV=<ENV> CONO=<CO>,^
+142696,SSMENUX,MDEVbespoke,SMRS Dashboard,P,PConcept Dashboard.exe,ENV=<ENV> CONO=<CO> GROUP=smrs,^
+142697,SSMENUX,MACTIVRP,OLD PROGRAMS,M,Moldprograms,,
+142698,SSMENUX,Moldprograms,Crystal Reports Setup (OLD),P,PReportsSetup.exe,<ENV>,^
+142699,SSMENUX,Moldprograms,SL Account Enquiry,P,PSLPENQ  E,,
+142700,SSMENUX,Moldprograms,PL Account Enquiry,P,PPLPENQ  E,,
+142701,SSMENUX,Moldprograms,OLD Direct Draft Invoice Entry,P,PJCPMSTDJ,,
+142702,SSMENUX,Moldprograms,Briefing System Reports,M,MJCMENUB,,
+142703,SSMENUX,MJCMENUB,Brief Billing Report,P,PJCPBBR,,
+142704,SSMENUX,MJCMENUB,Brief Management Information,P,PSIPBMI,,
+142705,SSMENUX,MJCMENUB,Brief Closed Not Billed,P,PJCPBCNB,,
+142706,SSMENUX,MACTIVRP,Job View 2,P,PJobView2.exe,ENV=<ENV> CONO=<CO> ENV_=<ENV_>,^
+142707,SSMENUX,,CIS Utilities,M,MESGUtils,,
+142708,SSMENUX,MESGUtils,Ad-hoc SQL backup,P,PbackupSQL.exe,ENV=<ENV> CONO=<CO> filename=auto,^
+142709,SSMENUX,MESGUtils,Add Users to Hosted Server,P,PAdd Users to Hosted Server.exe,ENV=<ENV> CONO=<CO>,^
+142710,SSMENUX,MESGUtils,Company Creation (for 1st company),P,PCOCREATE,,^
+142711,SSMENUX,MESGUtils,Concept Database Upgrade,P,PDBUpgradeX.exe,ENV=<ENV>,^
+142712,SSMENUX,MESGUtils,Concept Table Maintenance,P,Pvbwrap.exe,ENV=<ENV> CONO=<CO> APPLICATION=TABLEMAINTENANCE,^
+142713,SSMENUX,MESGUtils,Concept Utility Views,M,MXLVIEWS,concept_xx,^
+142714,SSMENUX,MESGUtils,Copy Data from One Environment to Another,P,PCopyDataEnvToEnv.exe,,^
+142715,SSMENUX,MESGUtils,Cost Ledger Restructure,P,PCostLedgerRestructure.exe,ENV=<ENV> CONO=<CO>,^
+142716,SSMENUX,MESGUtils,Create Additional Companies,P,PCopyCompany.exe,ENV=<ENV> CONO=<CO>,^
+142717,SSMENUX,MESGUtils,Custom Fields Maintenance,P,PCustomFieldsMaintenance.exe,ENV=<ENV> CONO=<CO>,^
+142718,SSMENUX,MESGUtils,Data Mover,P,Pdatamove.exe,ENV=<ENV> CONO=<CO>,^
+142719,SSMENUX,MESGUtils,Data Purge,P,PDataPurge.exe,ENV=<ENV> CONO=<CO>,^
+142720,SSMENUX,MESGUtils,Department Code Switch,P,PDeptCodeSwitch.exe,ENV=<ENV> CONO=<CO>,^
+142721,SSMENUX,MESGUtils,Drop and ReCreate ALL views,P,PReCreateAllViews.exe,ENV=<ENV> CONO=<CO>,^
+142722,SSMENUX,MESGUtils,External App Integration,P,PVBWRAP.exe,ENV=<ENV> CONO=<CO> APPLICATION=ExternalAppIntegration,^
+142723,SSMENUX,MESGUtils,GUI Translate 2013v1 UK to US,P,PGUI Mash UK to US.exe,ENV=<ENV> CONO=<CO> vsn=<VSN>,^
+142724,SSMENUX,MESGUtils,Nominal Ledger Restructure,P,PUpdateAccountNumber.exe,ENV=<ENV> CONO=<CO>,^
+142725,SSMENUX,MESGUtils,Penna Hamis Link,P,PbinPenna/PennaHamisLink.exe,ENV=<ENV> CONO=<CO>,^
+142726,SSMENUX,MESGUtils,Penna Hammis Config,P,PPennaHamisConfig.exe,ENV=<ENV> CONO=<CO>,^
+142727,SSMENUX,MESGUtils,Purchase Order Fix,P,PPurchaseOrderFix.exe,ENV=<ENV> CONO=<CO>,^
+142728,SSMENUX,MESGUtils,Year End Change,P,PYearEndChange.exe,ENV=<ENV> CONO=<CO>,^
+142729,SSMENUX,MESGUtils,Contact and Company Export/Import,P,PUpdateFromXL.exe,ENV=<ENV> CONO=<CO>,^
+142730,SSMENUX,MESGUtils,Media Prod Status Maint,P,PVBWrap.exe,ENV=<ENV> CONO=<CO> APPLICATION=MediaProdStatus,^
+142731,SSMENUX,MESGUtils,Media Prod Actions,P,PVBWrap.exe,ENV=<ENV> CONO=<CO> APPLICATION=MediaProdActions,^
+142732,SSMENUX,,Concept Dashboard,P,PConcept Dashboard.exe,ENV=<ENV> CONO=<CO>,^
+142733,SSMENUX,,Account Handler Dashboard,P,PConcept Dashboard.exe,ENV=<ENV> CONO=<CO> GROUP=AccHandler,^
+142734,SSMENUX,,Media Dashboard,P,PConcept Dashboard.exe,ENV=<ENV> CONO=<CO> GROUP=Media,^

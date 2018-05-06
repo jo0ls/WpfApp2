@@ -23,7 +23,7 @@ Class Application
     ' decision descisions - use frequently used code, and all its references or just keep it local?
     SetLocale()
     SetBespoke()
-
+    SetOPR()
   End Sub
 
   Private Function ParseArgs(commandLineArgs() As String) As Dictionary(Of String, String)
@@ -69,11 +69,17 @@ Class Application
 
   Private Sub SetConnectionString(args As Dictionary(Of String, String))
     ' hmm. well, for now...
-    Resources("ConnectionString") = "Data Source=172.20.0.6\SQL2008;Initial Catalog=JulianDev;User ID=jdmsql;Password=coughsyrupgreenhouse;" ' TODO - create this properly
+    ' Resources("ConnectionString") = "Data Source=172.20.0.6\SQL2008;Initial Catalog=JulianDev;User ID=jdmsql;Password=coughsyrupgreenhouse;" ' TODO - create this properly
+    Resources("ConnectionString") = "Data Source=DESKTOP-K96C0T9\CONCEPTDB;Initial Catalog=JulianDev;Integrated Security=True"
   End Sub
 
   Private Sub SetLocale()
     Resources("Locale") = If(CultureInfo.CurrentCulture.EnglishName.Contains("United States"), "US", "")
+  End Sub
+
+  Private Sub SetOpr()
+    Resources("OPR_CODE") = "julian.mcf"
+
   End Sub
 
   Private Sub SetBespoke()

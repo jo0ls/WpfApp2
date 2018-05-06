@@ -65,8 +65,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ItemDetails.xaml.vb">
+      <DependentUpon>ItemDetails.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\MenuItem.vb" />
     <Compile Include="ViewModel\MenuViewModel.vb" />
+    <Page Include="ItemDetails.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -118,11 +130,6 @@
       <VBMyExtensionTemplateID>Microsoft.VisualBasic.WPF.MyExtension</VBMyExtensionTemplateID>
       <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
     </Compile>
-    <Compile Include="My Project\Resources.Designer.vb">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <Compile Include="My Project\Settings.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -130,13 +137,38 @@
     </Compile>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources2.Designer.vb</LastGenOutput>
     </EmbeddedResource>
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DummySSMENUS.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concept_xx.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ariba.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concept_audit.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concept_database.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concept_accounts.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concept_mgmt.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\concept_time.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

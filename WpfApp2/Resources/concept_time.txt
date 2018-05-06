@@ -1,0 +1,16 @@
+TABLE_QUALIFIER,TABLE_OWNER,TABLE_NAME,TABLE_TYPE,REMARKS
+concept_time_analysis~1
+concept_time_daily_time_analysis~1
+concept_time_days_time_entered~1
+concept_time_hours_required_by_day~1
+concept_time_hours_required_last_365_days~1
+concept_time_hours_worked_by_employee_by_day~1
+concept_time_information~1
+concept_time_missing_timsheets_daily_co1
+concept_time_missing_timsheets_weekly_co1
+concept_time_pg1~1
+concept_time_pg2~1
+concept_time_pg3~1
+concept_time_pg~1
+concept_time_pre_update_report_co1
+concept_time_required_hours~1

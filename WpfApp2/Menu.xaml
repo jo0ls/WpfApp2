@@ -6,17 +6,23 @@
              xmlns:local="clr-namespace:WpfApp2"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-  <UserControl.DataContext>
+  <!--<UserControl.DataContext>
     <local:MenuViewModel></local:MenuViewModel>
-  </UserControl.DataContext>
+  </UserControl.DataContext>-->
+  
   <Grid>
-    <TreeView HorizontalAlignment="Left" Height="317" Margin="88,42,0,0" VerticalAlignment="Top" Width="538" Name="tree1">
+
+    <TreeView Margin="10,10,10,10" Name="tree1" Background="#FFE4E4E4" 
+              ItemsSource="{Binding RootNodes}" SelectedItemChanged="TreeView_SelectedItemChanged">
       <TreeView.ItemTemplate>
-        <HierarchicalDataTemplate DataType="{x:Type local:MenuITem}" ItemsSource="{Binding Items}">
-          <TextBlock Text="{Binding Caption}" />
+        <!--<HierarchicalDataTemplate DataType="{x:Type local:MenuItem}" ItemsSource="{Binding Items}">
+            <TextBlock Text="{Binding Caption}" MinWidth="200"/>
+          </HierarchicalDataTemplate>-->
+        <!-- dot below bind to current data context -->
+        <HierarchicalDataTemplate DataType="{x:Type local:MenuItem}" ItemsSource="{Binding Items}">
+          <TextBlock Text="{Binding Caption}" MinWidth="200"/>
         </HierarchicalDataTemplate>
       </TreeView.ItemTemplate>
     </TreeView>
-
   </Grid>
 </UserControl>
